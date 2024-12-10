@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        h2, h4 {
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #333;
+        }
+
+        .navbar-brand {
+            color: #fff;
+        }
+
+        .navbar-brand:hover {
+            color: #ff6600;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ff6600 !important;
+        }
+
+        .navbar-toggler-icon {
+            background-color: #fff;
+        }
+
+        .dropdown-menu {
+            background-color: #333;
+            border: none;
+        }
+
+        .dropdown-item {
+            color: #fff !important;
+        }
+
+        .dropdown-item:hover {
+            background-color: #ff6600;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: #ff6600;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="/">
+                <img src="Healthy Apple.jpeg" alt="Logo" style="max-height: 50px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../homepage/menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBreakfast" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Breakfast
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownBreakfast">
+                            <li><a class="dropdown-item" href="../breakfast/avado.html">Avocado Breakfast Salad</a></li>
+                            <li><a class="dropdown-item" href="../breakfast/feta.html">Feta Egg and Spinach</a></li>
+                            <li><a class="dropdown-item" href="../breakfast/index.html">Sesame Instant Ramen</a></li>
+                            <li><a class="dropdown-item" href="../breakfast/bb.html">Blackbeans</a></li>
+                            <li><a class="dropdown-item" href="../breakfast/peanut.html">Peanut Butter & Chia Berry Jam Muffin</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLunch" role="button" data-bs-toggle="dropdown" aria-expanded="false">Lunch</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownLunch">
+                            <li><a class="dropdown-item" href="../lunch/buffalo.html">Buffalo Chicken</a></li>
+                            <li><a class="dropdown-item" href="../lunch/vegg.html">Veggie & Hummus Sandwich</a></li>
+                            <li><a class="dropdown-item" href="../lunch/lettuce.html">Lettuce Wraps</a></li>
+                            <li><a class="dropdown-item" href="../lunch/cobb salad.html">Chicken Salad</a></li>
+                            <li><a class="dropdown-item" href="../lunch/chicken.html">Chicken Quesadillas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDinner" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dinner</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownDinner">
+                            <li><a class="dropdown-item" href="../dinner/adobo.html">Chicken Adobo</a></li>
+                            <li><a class="dropdown-item" href="../dinner/chicken.html">Chicken Binagoongan</a></li>
+                            <li><a class="dropdown-item" href="../dinner/gising.html">Chicken Gising Gising</a></li>
+                            <li><a class="dropdown-item" href="../dinner/malapot.html">Pineapple Chicken</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content for the centered image with description below -->
+    <div class="container d-flex flex-column justify-content-center align-items-center" style="height: auto; text-align: center;">
+        <!-- Image with a max-width of 50% to make it smaller but not too small -->
+        <img src="../img/Pineapple-Chicken-Filipino-Version.jpg" alt="Centered Image" class="img-fluid" style="max-width: 50%; height: auto; object-fit: contain;">
+
+        <!-- Description below the image -->
+        <div class="description" style="margin-top: 20px;">
+            <p><strong>Pineapple Chicken</strong></p>
+            <p>When it comes to savory recipes, pineapple remains a very controversial ingredient for us to incorporate. But even if the clear contrast of flavors when it comes to sour tanginess and sweetness remains unpleasant to some, it has not stopped Filipino cooks from making the most of this delightful tropical fruit. Pineapple is among the most utilized fruits in our cuisine, whether it be for desserts or the main course. And so if you’re still on the fence about this component being mixed into your meals, I would suggest you try at least one from a Filipino cook. Malapot na Pininyahang Manok, anyone?</p>
+        </div>
+
+        <!-- Nutrition Facts below the description -->
+        <div class="nutrition-facts" style="margin-top: 30px;">
+            <h4><strong>Nutrition Facts (per serving)</strong></h4>
+            <ul style="list-style-type: none; padding: 0;">
+                <li><strong>Calories:</strong> 722 kcal</li>
+                <li><strong>Total Fat:</strong> 49g</li>
+                <li><strong>Carbohydrates:</strong> 23g</li>
+                <li><strong>Protein:</strong> 47g</li>
+            </ul>
+        </div>
+
+        <!-- Ingredients Section -->
+        <div class="ingredients" style="margin-top: 30px;">
+            <h4><strong>Ingredients</strong></h4>
+            <ul style="list-style-type: none; padding: 0;">
+                <li>2 lbs. chicken, cut into serving pieces</li>
+                <li>1 Knorr Chicken Cube</li>
+                <li>8 ounces pineapple chunks</li>
+                <li>1 carrot, thinly sliced crosswise</li>
+                <li>1 red bell pepper, sliced into squares</li>
+                <li>1 green bell pepper, sliced into squares</li>
+                <li>3 tablespoons soy sauce</li>
+                <li>2 tablespoons liver spread</li>
+                <li>1 onion, diced</li>
+                <li>5 cloves garlic, chopped</li>
+                <li>4 tablespoons cooking oil</li>
+                <li>2 cups water</li>
+                <li>2 tablespoons cornstarch</li>
+                <li>1 teaspoon sugar</li>
+                <li>Salt and ground black pepper, to taste</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+        <p>Contact us at <a href="mailto:contact@yourwebsite.com" style="color: #ff6600; text-decoration: none;">hxhfoods.com</a></p>
+        <div>
+            <a href="https://www.facebook.com" target="_blank" style="margin: 0 10px; color: #fff; text-decoration: none;">Facebook</a>
+            <a href="https://www.twitter.com" target="_blank" style="margin: 0 10px; color: #fff; text-decoration: none;">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px; color: #fff; text-decoration: none;">Instagram</a>
+            <a href="https://www.linkedin.com" target="_blank" style="margin: 0 10px; color: #fff; text-decoration: none;">LinkedIn</a>
+        </div>
+    </footer>
+
+    <!-- Include Bootstrap's JavaScript Bundle (includes Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
